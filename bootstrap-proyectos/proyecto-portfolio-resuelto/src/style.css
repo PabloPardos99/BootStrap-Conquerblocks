@@ -1,6 +1,6 @@
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-.hero-section{
+.hero-section {
   background: linear-gradient(to right, #e3f2fd, #ffccbc);
   color: #212529;
 }
@@ -8,19 +8,8 @@
 .hero-image {
   max-width: 100%;
   border-radius: 1rem;
-  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-#navbarNav a{
-  transition: transform 0.2s ease-in-out;
-}
-
-#navbarNav a:hover {
-  color: blue;
-  transform: translateY(-5px);
-}
-
-
 
 .feature-card,
 .project-card,
